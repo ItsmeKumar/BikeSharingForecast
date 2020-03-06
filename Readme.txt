@@ -1,24 +1,3 @@
-Interview questions
-
-Co-op:
-
-Collaborated with the GE Global Research to develop a mathematical model to compute blade and gearbox design life consumption of a wind turbine using sensor data and created a python package with the implementation
-
-(We compute and sum up all the loads a component is experiencing over time and we have a reference value that we get from the design team, which tells us how much load a particular component can withstand in total in its 20 year life span. We normalise the the total load using the reference value to get the design life utilised, whose value will be 1 if blade is going to fail in exactly 20 years. If it is more than 1 then blade is going to survive for more than 20 years, if it is less then blade is going to survive less than 20 years.)
-
-Worked in a team of 6 to predict the remaining useful life of turbine pitch bearings by building survival models in R
-
-Developed a dashboard for wind turbine RUL analysis by generating jupyter notebooks for over 7000 turbines using papermill
-
-
-Why Klaviyo:
-
-Klaviyo is a marketing automation and email platform designed to help grow businesses.
-
-There are some interesting things the data science team at Klaviyo is working on such as customer segmentation for more relevant ads, using machine learning to predict important metrics like next purchase date, amount of future spending, number of purchases, churn probability, lifetime value of a customer, average time between orders, gender prediction. I think I can make really good contribution to the team in these areas and also learn from the experience of everyone. And I think I can have an impac
-
-
-
 ==========================================
 Bike Sharing Dataset
 ==========================================
