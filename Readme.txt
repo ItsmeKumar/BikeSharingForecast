@@ -1,3 +1,24 @@
+Interview questions
+
+Co-op:
+
+Collaborated with the GE Global Research to develop a mathematical model to compute blade and gearbox design life consumption of a wind turbine using sensor data and created a python package with the implementation
+
+(We compute and sum up all the loads a component is experiencing over time and we have a reference value that we get from the design team, which tells us how much load a particular component can withstand in total in its 20 year life span. We normalise the the total load using the reference value to get the design life utilised, whose value will be 1 if blade is going to fail in exactly 20 years. If it is more than 1 then blade is going to survive for more than 20 years, if it is less then blade is going to survive less than 20 years.)
+
+Worked in a team of 6 to predict the remaining useful life of turbine pitch bearings by building survival models in R
+
+Developed a dashboard for wind turbine RUL analysis by generating jupyter notebooks for over 7000 turbines using papermill
+
+
+Why Klaviyo:
+
+Klaviyo is a marketing automation and email platform designed to help grow businesses.
+
+There are some interesting things the data science team at Klaviyo is working on such as customer segmentation for more relevant ads, using machine learning to predict important metrics like next purchase date, amount of future spending, number of purchases, churn probability, lifetime value of a customer, average time between orders, gender prediction. I think I can make really good contribution to the team in these areas and also learn from the experience of everyone. And I think I can have an impac
+
+
+
 ==========================================
 Bike Sharing Dataset
 ==========================================
@@ -30,7 +51,7 @@ events in the city could be detected via monitoring these data.
 Data Set
 =========================================
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,
-precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to  
+precipitation, day of week, season, hour of the day, etc. can affect the rental behaviours. The core data set is related to  
 the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
 publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then 
 extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
@@ -40,11 +61,11 @@ Associated tasks
 =========================================
 
 	- Regression: 
-		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
+		Prediction of bike rental count hourly or daily based on the environmental and seasonal settings.
 	
 	- Event and Anomaly Detection:  
 		Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
-		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
+		For instance, query like "2012-10-30 Washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
 		identified in [1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
 
 
@@ -89,17 +110,17 @@ License
 =========================================
 Use of this dataset in publications must be cited to the following publication:
 
-[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labelling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 
 @article{
 	year={2013},
 	issn={2192-6352},
 	journal={Progress in Artificial Intelligence},
 	doi={10.1007/s13748-013-0040-3},
-	title={Event labeling combining ensemble detectors and background knowledge},
+	title={Event labelling combining ensemble detectors and background knowledge},
 	url={http://dx.doi.org/10.1007/s13748-013-0040-3},
 	publisher={Springer Berlin Heidelberg},
-	keywords={Event labeling; Event detection; Ensemble learning; Background knowledge},
+	keywords={Event labelling; Event detection; Ensemble learning; Background knowledge},
 	author={Fanaee-T, Hadi and Gama, Joao},
 	pages={1-15}
 }
